@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <!--bootstrap-file-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+     <!--bootstrap-file-->
+     <!--font-awesome-->
+     <link rel="stylesheet" href="css/all.min.css">
+     <!--font-awesome-->
+     <!--wow.css-->
+     <link rel="stylesheet" href="css/animate.css">
+     <!--wow.css-->
+     <!--style.css-->
+     <link rel="stylesheet" href="css/style-2.css">
+     <!--style.css-->
+</head>
+<body>
+
+    <div class="start-section-one-form" id="from-one-close">
+        <div class="container">
+            <div class="md-section-formone pt-3">  
+                <div class="row align-items-center ">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6 d-none ">
+                        <div class="text-center m-auto">
+                    
+                    </div>
+                  
+                </div>
+                    <div class="col-md-6">
+                        <div class="border-form-one  ">
+                        <div class="forms text-center">
+                         <a class="text-primary text-decoration-none d-inline-flex" href="#"
+                        ><div class="d-flex align-items-center justify-content-center">
+                            <img src="./img/logo.png" style="width:100px; " alt="">
+                            <a class="navbar-brand text-center text-dark text-primary aref-font-bold" style="transform:translateX(-20px) ;" href="#"
+                              > Clinic</a
+                            >
+                        </div>
+                            <div class="content-froms">
+                                <p class="text-capitalize text-black-50">Patient’s medical file(Single)</p>
+                            </div>
+                            </div>
+                        <form action="" class="text-capitalize">
+                            <div class="inputs-log-from-one ">
+                                <div class="inpu-form-one">
+                                <div class="fullname-form-one">
+                                    <label for="fullname" class="text-black-50 mx-4">Full Name</label>
+                                </div>
+                                <input type="name" required class="" >
+                            </div>
+                            <div class="password">
+                                <div class="fullname-form-one">
+                                    <label for="age" class="text-black-50 mx-4 mt-2">age</label>
+                                </div>
+                                <input type="" required>
+                            </div>
+                            <div class="gender-op text-black-50 mx-4 mt-2">
+                                <label for="gender text-black-50 ">gender</label>
+                            </div>
+                            <select name="gender" class="text-black-50 text-capitalize" id="gender">
+                                <option value="male">male</option>
+                                <option value="female">female</option>
+                            </select>
+                        </div>
+                        <div class="weghit-hegit text-black-50 d-flex mx-4 gap-3 justify-content-around">
+                            <div class="height">
+                             <h6 class="mt-2">height</h6>   
+                             <div class="input-height">
+                                <input type="text" class="" required placeholder="Cm">
+                            </div>
+                            </div>
+                         
+                            <div class="weight">
+                                <h6 class="mt-2">weight</h6> 
+                                <div class="input-height" class="">
+                                    <input type="text" class="" required placeholder="Kg">
+                                </div>  
+                               </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+              <div class="">
+                <div class="next-two-step-two text-center mt-2">
+                    <div class="button-next-step">
+                       <button class="btn btn-primary mx-2" id="active-button" style="border-radius: 50%;">1</button>
+                       <span class="mx-2"><i class="fa-solid fa-arrow-right"></i></span>
+                       <button class="mx-2 btn btn-outline-primary "  style="border-radius: 50%;">2</button>
+                       <div class="submit-button">
+                        <button class="mt-2 mb-2" onclick="nextPage()">next</button>
+                    </div>
+                    </div>   
+                   </div>
+              </div>
+                </div>       
+            </div> 
+        </div>
+    </div>
+    <div class="start-section-two-form d-none" id="from-two-close">
+        <div class="container">
+            <div class="row">
+             <div class="col-lg-12">
+            <div class="md-section-formone pt-2">  
+                <div class="row align-items-center ">
+                    <div class="col-md-6"></div>
+                    <div class="col-md-6 d-none ">
+                        <div class="text-center m-auto">
+                        <!-- <img src="img/dentist-2530990_1280.jpg" style="margin: auto;" class="img-fluid" alt=""> -->
+                    </div>
+                    </div>
+                
+                    <div class="col-md-6">
+                        <div class="border-form-one  ">
+                        <div class="forms text-center">
+                         <a class="text-primary text-decoration-none d-inline-flex" href="#"
+                        ><div class="d-flex align-items-center justify-content-center">
+                            <img src="./img/logo.png" style="width:100px; " alt="">
+                            <a class="navbar-brand text-center text-dark text-primary aref-font-bold" style="transform:translateX(-20px) ;" href="#"
+                              > Clinic</a
+                            >
+                        </div>
+                            <div class="content-froms ">
+                                <p class="text-capitalize text-black-50 m-0">Patient’s medical file(Single)</p>
+                            </div>
+                            </div>
+                        <form action="" class="text-capitalize">
+                            <div class="blod-type">
+                            <h6 class="text-black-50 text-capitalize mx-3">blood type</h6>
+                            <select name="blood" class="text-black-50 text-capitalize" id="blood">
+                                <option value="O+" selected>O+</option>
+                                <option value="B+">B+</option>
+                                <option value="B+">A+</option>
+                            </select>
+                        </div>
+                            <div class="weghit-hegit text-black-50 d-flex justify-content-around">
+                                <div class="height">
+                                 <h6 class="">Pressure</h6>   
+                                 <div class="input-height">
+                                    <input type="text" class="" required placeholder="(90,140/60,90)">
+                                </div>
+                                </div>
+                             
+                                <div class="weight">
+                                    <h6 class="">diabets</h6> 
+                                    <div class="input-height" class="">
+                                        <input type="text" class="" required placeholder="(70/110)">
+                                    </div>  
+                                   </div>
+                            </div>
+                            <div class="weghit-hegit text-black-50 d-flex justify-content-around ">
+                                <div class="height">
+                                 <h6 class="">Emergancy Number</h6>   
+                                 <div class="input-height">
+                                    <input type="text" class="" required placeholder="">
+                                </div>
+                                </div>
+                             
+                                <div class="weight">
+                                    <h6 class="">Another <br> Number</h6> 
+                                    <div class="input-height" class="">
+                                        <input type="text" class="" required placeholder="">
+                                    </div>  
+                                   </div>
+                            </div>
+                            <p class=" text-capitalize text-black-50 text-center">Pathological History(reports,Rays,Roshata)</p>   
+                            <div class="pat-input text-center d-flex">
+                            <input type="text"><span><i class="fa-solid fa-save"></i></span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                </div>    
+                <div class="next-two-step-two text-center mt-1">
+                    <div class="button-next-step">
+                       <button class="btn btn-primary mx-2" style="border-radius: 50%;">1</button>
+                       <span class="mx-2"><i class="fa-solid fa-arrow-right"></i></span>
+                       <button class="mx-2 btn btn-primary " style="border-radius: 50%;" id="not-active">2</button>
+                       <div class="submit-button">
+                           <button class="mt-1" onclick="subMit()" >submit</button>
+                       </div>
+                    </div>      
+            </div> 
+             </div>   
+            </div>
+        </div>
+    </div>  
+    </div>
+    <div class="start-section-three-form d-none" id="from-three-close">
+        <div class="container">
+            <div class="row">
+             <div class="col-lg-12">
+            <div class="md-section-formone pt-5">  
+                <div class="row align-items-center ">
+                    <div class="col-md-6 ">
+                        <div class="text-center m-auto">
+                       
+                    </div>
+                </div>
+                    <div class="col-md-6">
+                        <div class="border-form-one  ">
+                        <div class="forms mt-2 mb-2 text-center">
+                         <a class="text-primary text-decoration-none d-inline-flex" href="#"
+                        ><div class="d-flex align-items-center justify-content-center">
+                            <img src="./img/logo.png" style="width:100px; " alt="">
+                            <a class="navbar-brand text-center text-dark text-primary aref-font-bold" style="transform:translateX(-20px) ;" href="#"
+                              > Clinic</a
+                            >
+                        </div>
+                            <div class="content-froms ">
+                                <p class="text-capitalize text-black-50">Patient’s medical file(Single)</p>
+                            </div>
+                            </div>
+                        <form action="" class="text-capitalize">
+                        <div class="national-id mx-3 mt-2 mb-3">
+                            <div class="natio mx-3 mb-3">
+                                <label for="national id" class="text-capitalize  text-black-50">natinal id </label>
+                            </div>
+                            <input type="text" placeholder="2993223344000339">
+                        </div>
+                         <div class="company-code mt-3">
+                            <div class="company-lab mx-4 mb-3">
+                                <label for="company" class="text-capitalize text-black-50">company code</label>
+                            </div>
+                            <div class="code-input">
+                                <div class="input-1">
+                                <input type="text">
+                            </div>
+                            <div class="input-1">
+                                <input type="text">
+                            </div>
+                            <div class="input-1">
+                                <input type="text">
+                            </div>
+                            <div class="input-1">
+                                <input type="text">
+                            </div>
+                            </div>
+                         </div>
+                         <div class="company-code mt-3">
+                            <div class="company-lab mx-3 mb-3">
+                                <label for="company" class="text-capitalize text-black-50">code for client</label>
+                            </div>
+                            <div class="code-input">
+                                <div class="input-1">
+                                <input type="text">
+                            </div>
+                            <div class="input-1">
+                                <input type="text">
+                            </div>
+                            <div class="input-1">
+                                <input type="text">
+                            </div>
+                            <div class="input-1">
+                                <input type="text">
+                            </div>
+                            </div>
+                         </div>
+                        </form>
+                    </div>
+                </div>
+               <div class="submit-button text-center ">
+                            <a href="index.html" class="btn btn-primary mt-2 mb-2">submit</a>
+                        </div>  
+                </div>       
+            </div> 
+             </div>   
+            </div>
+        </div>
+    </div>  
+    
+     <!--js-file-->
+     <script src="js/all.min.js"></script>
+     <script src="js/bootstrap.bundle.min.js"></script>
+     <script src="js/wow.min.js"></script>   
+     <script src="js/formOne.js"></script>
+     <!--js-file-->
+    </body>
+    </html>
